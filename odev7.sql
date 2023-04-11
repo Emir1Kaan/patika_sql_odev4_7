@@ -11,8 +11,8 @@ having count(replacement_cost)>50;
 select store_id, count(*) as "musteri sayisi" from customer 
 group by store_id;
 
--- 4. city tablosunda bulunan şehir verilerini country_id sütununa göre gruplandırdıktan sonra en fazla 
---şehir sayısı barındıran country_id bilgisini ve şehir sayısını paylaşınız.
+-- 4. city tablosunda bulunan şehir verilerini country_id sütununa göre gruplandırdıktan sonra en fazla şehir sayısı barındıran country_id bilgisini ve 
+-- şehir sayısını paylaşınız.
 select country_id, count(*) as "sehir sayisi" from city 
 group by country_id 
 order by count(*) desc
