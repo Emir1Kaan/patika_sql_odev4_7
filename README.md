@@ -2,4 +2,4 @@
 
 https://app.patika.dev/emirkaanercan
 
-Ödev 4 ve Ödev 7, kullanmam istenilen örnek veritabanı ile birlikte bu repository'e eklenmiştir.
+Patika ödev 4 7 8 11 ve 12. ödevler bu repoda bulunmaktadır.
